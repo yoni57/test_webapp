@@ -1,0 +1,160 @@
+.home-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(60, 85, 167);
+    padding-bottom: 80px;
+    
+
+}
+
+.home-container .home-content{
+    background-color: rgb(121, 132, 165);
+}
+
+.home-container .home-content h3{
+    font-size: 5vw;
+    text-transform: uppercase;
+    text-align: center;
+}
+.home-container .home-content p{
+    font-size: 20px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.home-container .home-content p a:hover{
+        color: crimson;
+
+}
+
+.form{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(173, 64, 64);
+    padding-bottom: 80px;
+}
+
+
+
+.form-container form{
+    text-align: center;
+    width: 500px;
+    background: #fff;
+    border: 2px solid #000;
+    padding: 20px;
+}
+.form-container h3{
+    font-size: 3vw;
+    text-transform: uppercase;
+    text-align: center;
+}
+.form-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(60, 85, 167);
+    padding-bottom: 80px;
+
+}
+
+.form-container form .form-btn{
+    display: inline-block;
+    margin-top: 10px;
+    background: #000;
+    color: #fff;
+    padding: 10px 35px;
+    font-size: 20px;
+    width: 100%;
+
+}
+.form-container form .form-btn:hover{
+    background:crimson ;
+}
+
+.form-container form .box{
+    width: 100%;
+    padding: 12px 12px;
+    font-size: 15px;
+    border: 2px solid #000;
+    margin: 10px;
+    align-items: center;
+
+}
+
+.form-container form p a:hover{
+    background:crimson ;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+
+nav{
+    background:rgb(70, 124, 224);
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: #eee;
+    font-size:35px ;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    align-content: center;
+}
+
+nav ul{
+
+    float:right;
+    margin-right: 20px;
+
+
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+    
+}
+
+nav ul li a{
+    color: #eee;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 7px 13px;
+
+}
+ a.active,a:hover{
+    background: rgb(126, 200, 212);
+}
+
+.navbar .navbar-nav{
+    background: rgb(211, 197, 197) !important;
+}
+
+.navbar .navbar-nav .ul{
+
+    background-color: aqua !important;
+}
+
+.navbar .navbar-nav .ul .li a{
+    color: antiquewhite !important;
+}
+
+
+
+
